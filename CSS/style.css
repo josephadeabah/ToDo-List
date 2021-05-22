@@ -1,0 +1,100 @@
+
+ * {
+    box-sizing: border-box;
+  }
+   /* Style the list items */
+   ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    }
+   
+
+  button {
+    padding: 10px;
+    width: 25%;
+    margin: 1px;
+    background: #5d2888;
+    color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  body{
+    padding: 20px 200px 100px 200px;
+    background-color: cornsilk;
+    margin: 0;
+  }
+
+  #doneBG{
+    background-color: greenyellow;
+  }
+  #doneBG li{
+    text-decoration: line-through;
+    text-decoration-color: red;
+
+  }
+  #myU{
+    background-color: rgb(151, 151, 76);
+  }
+  h2{
+      text-align: center;
+  }
+ 
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #c8bfeb;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the input */
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #5d2888;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
